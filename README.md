@@ -131,7 +131,7 @@ Configure a Tag <b>DATA<b> de todas as <b>LAYERS<b> do arquivo <i>geral1.map</i>
     LAYER
     DATA "/var/www/i3geo/aplicmap/dados/zee"
     
-## 4.Teste de Instalação
+## 4.Teste de instalação
 
 Para ter certeza se a instalação está correta vá para o navegador de internet e na barra de endereços digite <b>http://<host>/i3geo/testainstal.php</b>.
 
