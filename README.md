@@ -34,7 +34,7 @@ O primeiro bloco de código diz respeito a instalação no windows e o segundo �
 
 <b>Obs:</b> Recomenda-se a criação de um link simbólico na pasta <i>/var/www/</i> direcionado para diretório temporário. Para criar um link simbólico digite o seguinte comando no terminal do Ubuntu:
 
-        /var/www:~$ sudo ln - s /tmp/ mp ms_tmp
+    /var/www:~$ sudo ln - s /tmp/ mp ms_tmp
 
 <b>Nota:</b> com o comando acima criaremos um link simbólico chamado <i>ms_tmp</i> que remete-se ao diretório <i>/tmp</i> do Ubuntu.
 
@@ -52,7 +52,7 @@ O primeiro bloco de código diz respeito a instalação no windows e o segundo �
 
 <b>Obs:</b> o mapserver cgi no Ubuntu fica no diretório <i>/usr/lib/cgi-bin/mapserv</i>, crie um link simbólico apontando para este diretório, conforme exemplo abaixo: 
 
-        /var/www/:~$ sudo ln -s /usr/lib/cgi-bin/mapserv cgi-bin
+    /var/www/:~$ sudo ln -s /usr/lib/cgi-bin/mapserv cgi-bin
 
 * Variável <b>$locaplic</b>: esta variável é responsável por guardar o caminho absoluto da pasta raiz do i3geo.
 
@@ -137,4 +137,4 @@ Para ter certeza se a instalação está correta vá para o navegador de interne
 
 Este programa fará a verificação se todos os pacotes necessários para o funcionamento do i3geo foram instalados e se os caminhos definidos no <i><b>ms_configura.php</b></i> estão corretos. Além destas verificações listadas acima, o programa <i><b>testainstal.php</b></i> verifica se o apache consegue escrever na pasta temporária e testa os mapfiles <i><b>geral1.map</b></i> e <i><b>estadosl.map</b></i>.
 
-<b>Atenção:</b>Se ao final da listagem de verificação aparecer dois mapas do Brasil na América do Sul, um sem os limites estaduais e outro com os limites, sua instalação está correta e você pode começar a usar o i3geo. Caso estes mapas não apareçam verifique as mensagens de erro e tente corrigi-las para utilizar o i3geo.
+<b>Atenção:</b> Se ao final da listagem de verificação aparecer dois mapas do Brasil na América do Sul, um sem os limites estaduais e outro com os limites, sua instalação está correta e você pode começar a usar o i3geo. Caso estes mapas não apareçam verifique as mensagens de erro e tente corrigi-las para utilizar o i3geo.
