@@ -137,4 +137,4 @@ Para ter certeza se a instalação está correta vá para o navegador de interne
 
 Este programa fará a verificação se todos os pacotes necessários para o funcionamento do i3geo foram instalados e se os caminhos definidos no <i><b>ms_configura.php</b></i> estão corretos. Além destas verificações listadas acima, o programa <i><b>testainstal.php</b></i> verifica se o apache consegue escrever na pasta temporária e testa os mapfiles <i><b>geral1.map</b></i> e <i><b>estadosl.map</b></i>.
 
-<b>Atenção:</b> Se ao final da listagem de verificação aparecer dois mapas do Brasil na América do Sul, um sem os limites estaduais e outro com os limites, sua instalação está correta e você pode começar a usar o i3geo. Caso estes mapas não apareçam verifique as mensagens de erro e tente corrigi-las para utilizar o i3geo..
+<b>Atenção:</b> Se ao final da listagem de verificação aparecer dois mapas do Brasil na América do Sul, um sem os limites estaduais e outro com os limites, sua instalação está correta e você pode começar a usar o i3geo. Caso estes mapas não apareçam verifique as mensagens de erro e tente corrigi-las para utilizar o i3geo.
